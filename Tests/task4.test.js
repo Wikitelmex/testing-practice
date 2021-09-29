@@ -18,4 +18,8 @@ describe('Capitalize strings', () => {
         expect(capitalize("1 // 456  aleJAndro")).toBe("1 // 456  Alejandro");
     });
 
+    test('only strings allowed: ', () => {
+        expect(() => capitalize(0)).toThrow(Error);
+    });
+
 });
