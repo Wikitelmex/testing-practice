@@ -1,2 +1,2 @@
 # testing-practice
-unit testing javascritp
+unit testing javascript
